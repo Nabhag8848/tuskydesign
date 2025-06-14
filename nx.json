@@ -2,11 +2,17 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "targetDefaults": {
     "serve": {
-      "dependsOn": ["build"]
+      "dependsOn": [
+        "build"
+      ]
     },
     "build": {
-      "dependsOn": ["^build"],
-      "outputs": ["{projectRoot}/dist"],
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "{projectRoot}/dist"
+      ],
       "cache": true
     },
     "typecheck": {
@@ -34,6 +40,9 @@
     }
   ],
   "release": {
-    "projects": ["packages/*"]
-  }
+    "projects": [
+      "packages/*"
+    ]
+  },
+  "nxCloudId": "684d7549719f712a59de38b7"
 }
