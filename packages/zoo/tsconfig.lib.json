@@ -22,7 +22,7 @@
     },
     {
       "path": "../names/tsconfig.lib.json"
-    },
+    }
   ],
   "exclude": [
     "dist",
